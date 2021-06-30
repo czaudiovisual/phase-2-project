@@ -55,6 +55,20 @@
       "year": 2011,
       "director": "David Yates",
       "url": "https://i.pinimg.com/originals/70/c1/41/70c1415658b7a2dcd8f2505a771d53c4.jpg"
+    },
+    {
+      "id": 9,
+      "movie": "Fantastic Beasts And Where To Find Them",
+      "year": 2016,
+      "director": "David Yates",
+      "url": "https://www.lakeheadu.ca/sites/default/files/events/5669901_sa.jpg%3BmaxHeight%3D640%3BmaxWidth%3D550.jpeg"
+    },
+    {
+      "id": 10,
+      "movie": "Wizarding World Fantastic Beasts: The Crimes of Grindelwald",
+      "year": 2018,
+      "director": "David Yates",
+      "url": "https://img01.mgo-images.com/image/thumbnail/v2/content/MMVACD149BD0C03123839396373196D30C64.jpeg"
     }
   ]
 }
