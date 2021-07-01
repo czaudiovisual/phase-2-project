@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Movie from './Movie'
+import MoviePoster from './MoviePoster'
 
 
 class Home extends Component {
@@ -7,20 +7,22 @@ class Home extends Component {
     state = {
         movies: [],
     };
-
+    // Fetch Request 
     componentDidMount() {
         fetch("http://localhost:3001/movies")
             .then(res => res.json())
-            .then(movies => this.setState({movies}));
+            .then(movies => this.setState({ movies }));
     }
-
+    // Rendering movie props
     render() {
         return (
             <div>
-                <h2>Harry Potter Movies</h2>
-                {this.state.movies.map(movie => 
-                   <Movie movie={movie.movie}
-                   url={movie.url} />
+                {this.state.movies.map(moviePosterInfo =>
+                    <MoviePoster
+                        movie={moviePosterInfo.movie}
+                        url={moviePosterInfo.url}
+                        id={moviePosterInfo.id} />
+
                 )}
             </div>
         );

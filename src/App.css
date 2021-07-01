@@ -2,9 +2,32 @@
   text-align: center;
 }
 
-img {
+.img-poster {
+  padding-top: 40px;
   float: center;
-  width:  300px;
+  width:  350px;
   height: 500px;
   object-fit: cover;
+}
+
+/* .movie-titles {
+  padding: 50px;
+} */
+
+.img-details {
+  float: center;
+  width:  350px;
+  height: 500px;
+  object-fit: cover;
+}
+header {
+  padding: 10px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  font-size: 20px;
+}
+
+Footer {
+  text-align: center;
 }
