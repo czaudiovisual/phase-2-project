@@ -8,11 +8,12 @@ import MovieDetails from './containers/MovieDetails';
 function App() {
   return (
     <div className="App">
-      <Header title="Harry Potter Movies"/>
+      <Header title="Movies"/>
       <Router>
         <Switch>
-          <Route exact path="/home" component={Home} />
+          <Route exact path="/" component={Home} />
           <Route exact path="/movies/:id" component={MovieDetails} />
+
         </Switch>
       </Router>
     </div>
