@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from "react-router-dom"
+import Button from 'react-bootstrap/Button';
 
 
 
@@ -14,11 +14,11 @@ class MovieDetails extends React.Component {
             .then(res => res.json())
             .then(movieDetails => this.setState({ movieDetails }));
     }
-
+    // Return values from state
     render() {
         return (
             <div>
-                <button className="back-button" onClick={() => this.props.history.goBack()}>Back</button>
+                <Button variant="primary" onClick={() => this.props.history.goBack()}>Back</Button>{' '}
                 <h2>Movie Details</h2>
                 <img className="img-details" src={this.state.movieDetails.url} />
                 <p>Movie: {this.state.movieDetails.movie}</p>

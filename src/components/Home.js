@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import MoviePoster from './MoviePoster'
+// import FormAddMovie from "./Form";
 
 
 class Home extends Component {

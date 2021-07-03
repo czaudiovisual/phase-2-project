@@ -1,3 +1,4 @@
+
 .App {
   text-align: center;
 }
@@ -38,3 +39,19 @@ header {
   width: 50px;
   height: 30px;
 }
+
+.bot-army {
+  overflow-x: scroll;
+  min-height: 300px;
+  max-width: 100%;
+}
+
+.ui.grid > .row.bot-army-row {
+  flex-wrap: nowrap;
+  min-height: 100%;
+}
+
+.ui.grid {
+  padding: 0px 20px;
+}
+
