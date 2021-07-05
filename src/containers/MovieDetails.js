@@ -1,9 +1,8 @@
 import React from 'react'
-import Button from 'react-bootstrap/Button';
-
-
+import Button from '@material-ui/core/Button';
 
 class MovieDetails extends React.Component {
+
     state = {
         movieDetails: {}
     }
@@ -17,14 +16,23 @@ class MovieDetails extends React.Component {
     // Return values from state
     render() {
         return (
-            <div>
-                <Button variant="primary" onClick={() => this.props.history.goBack()}>Back</Button>{' '}
-                <h2>Movie Details</h2>
-                <img className="img-details" src={this.state.movieDetails.url} />
-                <p>Movie: {this.state.movieDetails.movie}</p>
-                <p>Release date: {this.state.movieDetails.year}</p>
-                <p>Director: {this.state.movieDetails.director}</p>
-                <p>Budget: {this.state.movieDetails.budget}</p>
+            <div >
+                <div className="back-button">
+                    <Button
+                        variant="contained"
+                        color="primary"
+                        onClick={() => this.props.history.goBack()}>
+                        Back
+                    </Button>
+                </div>
+                <div className="card-details">
+                    <h2>Movie Details</h2>
+                    <img className="img-details" src={this.state.movieDetails.url} />
+                    <p><span>Movie:  </span>{this.state.movieDetails.movie}</p>
+                    <p><span>Release date: </span>{this.state.movieDetails.year}</p>
+                    <p><span>Director: </span>{this.state.movieDetails.director}</p>
+                    <p><span>Budget: </span>{this.state.movieDetails.budget}</p>
+                </div>
             </div>
         )
     }

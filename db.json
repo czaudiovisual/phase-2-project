@@ -13,6 +13,7 @@
       "movie": "Harry Potter and the Chamber of Secrets",
       "year": "November 14, 2002",
       "director": "Chris Columbus",
+      "budget": "$100 million",
       "url": "https://ridgefieldplayhouse.org/wp-content/uploads/2020/08/13-HP-Chamber-of-Secrets-Featured-Copy-2.jpg"
     },
     {
@@ -20,6 +21,7 @@
       "movie": "Harry Potter and the Prisoner of Azkaban",
       "year": 2004,
       "director": "Alfonso Cuarón",
+      "budget": "$130 million",
       "url": "https://images.moviesanywhere.com/1da041f4db01054fe099a9be01ddb6a2/f981fa35-0a7a-449a-ba99-f54a724ce278.jpg"
     },
     {
@@ -27,6 +29,7 @@
       "movie": "Harry Potter and the Goblet of Fire",
       "year": 2005,
       "director": "Mike Newell",
+      "budget": "$150 million",
       "url": "https://www.themoviedb.org/t/p/original/bOqIazGVU8NCkVND3oHmhr1hogK.jpg"
     },
     {
@@ -34,6 +37,7 @@
       "movie": "Harry Potter and the Order of the Phoenix",
       "year": 2007,
       "director": "David Yates",
+      "budget": "$200 million",
       "url": "https://lightbox-prod.imgix.net/images/assets/100140190-p166014_p_v8_al.jpg"
     },
     {
@@ -41,6 +45,7 @@
       "movie": "Harry Potter and the Half-Blood Prince",
       "year": 2009,
       "director": "David Yates",
+      "budget": "$250 million",
       "url": "https://img01.mgo-images.com/image/thumbnail/v2/content/1MVb589170edf544156a8a60f72b26105b7.jpeg"
     },
     {
@@ -48,6 +53,7 @@
       "movie": "Harry Potter and the Deathly Hallows: Part 1",
       "year": 2010,
       "director": "David Yates",
+      "budget": "$250 million",
       "url": "https://www.themoviedb.org/t/p/original/bw2AAFfOa4p0IKamvprZUwDXv1h.jpg"
     },
     {
@@ -55,6 +61,7 @@
       "movie": "Harry Potter and the Deathly Hallows: Part 2",
       "year": 2011,
       "director": "David Yates",
+      "budget": "$1.2 Billion",
       "url": "https://i.pinimg.com/originals/70/c1/41/70c1415658b7a2dcd8f2505a771d53c4.jpg"
     },
     {
@@ -62,6 +69,7 @@
       "movie": "Fantastic Beasts And Where To Find Them",
       "year": 2016,
       "director": "David Yates",
+      "budget": "$175 million",
       "url": "https://www.lakeheadu.ca/sites/default/files/events/5669901_sa.jpg%3BmaxHeight%3D640%3BmaxWidth%3D550.jpeg"
     },
     {
@@ -69,7 +77,24 @@
       "movie": "Wizarding World Fantastic Beasts: The Crimes of Grindelwald",
       "year": 2018,
       "director": "David Yates",
+      "budget": "$200 million",
       "url": "https://img01.mgo-images.com/image/thumbnail/v2/content/MMVACD149BD0C03123839396373196D30C64.jpeg"
+    },
+    {
+      "id": 11,
+      "movie": "The Fast And The Furious",
+      "year": 2001,
+      "director": "Rob Cohen",
+      "budget": "$38 million",
+      "url": "https://www.downflixs.com/wp-content/uploads/2020/11/The-Fast-And-The-Furious.jpg"
+    },
+    {
+      "url": "https://i.pinimg.com/originals/de/19/ce/de19ce3c5599549e6b1e47cd050aabf5.jpg",
+      "movie": "2 Fast 2 Furious",
+      "director": "John Singleton",
+      "year": "June 6, 2003",
+      "budget": "$76 million",
+      "id": 12
     }
   ]
 }

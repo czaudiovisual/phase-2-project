@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import MoviePoster from './MoviePoster'
-// import FormAddMovie from "./Form";
+import FormAddMovie from "./FormAddMovie";
 
 
 class Home extends Component {
@@ -17,7 +17,7 @@ class Home extends Component {
     // Rendering movie props
     render() {
         return (
-            <div>
+            <div className="card-wrapper">
                 {this.state.movies.map(moviePosterInfo =>
                     <MoviePoster
                         movie={moviePosterInfo.movie}
