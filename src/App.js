@@ -8,7 +8,7 @@ import FormAddMovie from "./components/FormAddMovie"
 function App() {
   return (
     <div className="App">
-      <Header title="Movies"/>
+      <Header title="Favorite Movies"/>
       <Router>
         <Switch>
           <Route exact path="/" component={Home} />
